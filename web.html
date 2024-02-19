@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Enquiry Form</title>
+  </head>
+  <body>
+    <h1>MasterSeal Exteriors Enquiry Form</h1>
+    <form
+      action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000DqzRS"
+      method="POST"
+    >
+      <input type="hidden" name="oid" value="00D5j00000DqzRS" />
+      <input
+        type="hidden"
+        name="retURL"
+        value="https://audwns39.wixsite.com/masterseal-exteriors"
+      />
+
+      <label for="first_name">First Name</label
+      ><input id="first_name" name="first_name" size="20" type="text" />
+
+      <label for="last_name">Last Name</label
+      ><input id="last_name" name="last_name" size="20" type="text" />
+
+      <label for="email">Email</label
+      ><input id="email" name="email" size="20" type="text" />
+
+      <label for="phone">Phone</label
+      ><input id="phone" name="phone" size="20" type="text" />
+
+      Address:<input
+        id="00N5j00000Sqvnw"
+        maxlength="60"
+        name="00N5j00000Sqvnw"
+        size="20"
+        type="text"
+      />
+
+      Type of Service Required:<select
+        id="00N5j00000SqsLQ"
+        multiple="multiple"
+        name="00N5j00000SqsLQ"
+        title="Type of Service Required"
+      >
+        <option value="roofing">roofing</option>
+        <option value="windows">windows</option>
+        <option value="door repair">door repair</option>
+      </select>
+
+      Description of the Project or Issue:<textarea
+        id="00N5j00000SqsLk"
+        name="00N5j00000SqsLk"
+        type="text"
+        wrap="soft"
+      ></textarea>
+
+      Preferred Contact Method:<select
+        id="00N5j00000SqsLu"
+        name="00N5j00000SqsLu"
+        title="Preferred Contact Method"
+      >
+        <option value="">--None--</option>
+        <option value="Email">Email</option>
+        <option value="Call">Call</option>
+        <option value="Text">Text</option>
+      </select>
+
+      <label for="lead_source">Lead Source</label
+      ><select id="lead_source" name="lead_source">
+        <option value="">--None--</option>
+        <option value="Website">Website</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Referral">Referral</option>
+        <option value="In-person">In-person</option>
+        <option value="Phone Inquiry">Phone Inquiry</option>
+        <option value="Partner Referral">Partner Referral</option>
+        <option value="Purchased List">Purchased List</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
